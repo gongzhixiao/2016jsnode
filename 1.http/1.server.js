@@ -19,10 +19,7 @@ http.createServer(function(request,response){
    response.write('world');
    response.end();// 结束响应 挂电话 挂掉电话就不能再write了
    //response.write('over');//write after end
-
-
 }).listen(9090);//在本机的9090端口上进行监听
-
 /**
  * 运行在服务器端，就是不发送给客户端浏览器运行的就叫服务器端代码
  * 发送给浏览器，在浏览器中运行的代码就叫客户端代码
